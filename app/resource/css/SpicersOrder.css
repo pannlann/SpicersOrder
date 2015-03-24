@@ -1,0 +1,377 @@
+/* red amber and green light indicator with index*/
+#green {
+	background: url("images/green.gif") no-repeat scroll right top transparent;
+	background-origin: content-box;
+}
+#yellow {
+	background: url("images/yellow.gif") no-repeat scroll right top transparent;
+	background-origin: content-box;
+}
+#red {
+	background: url("images/red.gif") no-repeat scroll right top transparent;
+	background-origin: content-box;
+}
+/* red amber and green light indicator WITHOUT index*/
+#green_no_idx {
+	background: url("images/green.gif") no-repeat scroll right top transparent;
+}
+#yellow_no_idx {
+	background: url("images/yellow.gif") no-repeat scroll right top transparent;
+}
+#red_no_idx {
+	background: url("images/red.gif") no-repeat scroll right top transparent;
+}
+#phone_no_idx {
+	background: url("images/phone.gif") no-repeat scroll right top transparent;
+}
+
+#block_no_idx {
+	background: url("images/block.png") no-repeat scroll right top transparent;
+}
+
+#block_phone_no_idx {
+	background: url("images/block_phone.png") no-repeat scroll right top transparent;
+}
+#red_cart_no_idx {
+	background: url("images/red_cart.png") no-repeat scroll right top transparent;
+}
+
+#yellow_cart_no_idx {
+	background: url("images/yellow_cart.png") no-repeat scroll right top transparent;
+}
+
+/* red amber and green light indicator in cart*/
+#green_cart {
+	background: url("images/green.gif") no-repeat scroll right top transparent;
+	padding: 0px 2px 8px 0px;
+	background-origin: content-box;
+}
+#yellow_cart {
+	background: url("images/yellow.gif") no-repeat scroll right top transparent;
+	padding: 0px 2px 8px 0px;
+	background-origin: content-box;
+}
+#red_cart {
+	background: url("images/red.gif") no-repeat scroll right top transparent;
+	padding: 0px 2px 8px 0px;
+	background-origin: content-box;
+}
+/*----------------------Style for images----------------------------*/
+.approved {
+	width: 100%;
+	height: 100%;
+	background: url("images/approved.png") no-repeat scroll right top transparent;
+}
+
+.pending {
+	width: 100%;
+	height: 100%;
+	background: url("images/pending.png") no-repeat scroll right top transparent;
+}
+
+.cancel {
+	width: 100%;
+	height: 100%;
+	background: url("images/cancel.png") no-repeat scroll right top transparent;
+}
+
+.aged_stock {
+	width: 100%;
+	height: 100%;
+	background: url("images/old_stock.png") no-repeat scroll left top transparent;
+}
+
+.red_icon {
+	width: 100%;
+	height: 100%;
+	background: url("images/red_cart.png") no-repeat scroll right top transparent;
+}
+
+.yellow_icon {
+	width: 100%;
+	height: 100%;
+	background: url("images/yellow_cart.png") no-repeat scroll right top transparent;
+}
+
+.green_icon {
+	width: 100%;
+	height: 100%;
+	background: url("images/green_cart.png") no-repeat scroll right top transparent;
+}
+/*----------------------Style for customer list----------------------------*/
+/*  customer name*/
+.cust_list_name {
+	width: 100%;
+	font-size: 0.8em;
+	float: left;
+}
+
+/*  customer number*/
+.cust_list_no {
+	float: left;
+	font-size: 0.6em;
+	width: 28%;
+}
+/* customer credit limit text*/
+.cust_list_crlim_text {
+	float: left;
+	font-size: 0.6em;
+	text-align: left;
+	width: 44%;
+}
+/* customer credit limit value*/
+.cust_list_crlim_val {
+	float: left;
+	text-align: right;
+	font-size: 0.6em;
+	width: 30px;
+}
+/* customer credit available value*/
+.cust_list_cravl_val {
+	padding-right: 10px;
+	float: right;
+	text-align: right;
+	font-size: 0.6em;
+	width: 50px
+}
+/* customer credit available text*/
+.cust_list_cravl_text {
+	float: right;
+	font-size: 0.6em;
+	text-align: left;
+	width: 28%;
+}
+
+.cust_general_text {
+	font-size: 0.6em;
+}
+
+.mi_general_text {
+	font-size: 0.6em;
+}
+
+.mi_hist_general_text {
+	font-size: 0.6em;
+}
+.cons_prd {
+	font-size: 0.8em;
+	text-align: left;
+}
+.cons_no {
+	font-size: 0.6em;
+	text-align: left;
+}
+.cons_total {
+	font-size: 0.6em;
+	text-align: right;
+}
+.cons_input_td {
+	font-size: 0.6em;
+	width: 55%;
+	text-align: right;
+}
+*----------------Style for contacts-----------------------------*/
+/*  customer name*/
+/*  customer name*/
+.cont_name {
+	font-size: 0.8em;
+	text-align: left;
+}
+.cont_no {
+	font-size: 0.6em;
+	text-align: left;
+}
+.cont_position {
+	font-size: 0.6em;
+	text-align: left;
+}
+.cont_phone {
+	font-size: 0.6em;
+	text-align: left;
+}
+.cont_email {
+	font-size: 0.6em;
+	text-align: left;
+}
+
+/*--------------------------------------------------------------------------*/
+/*  error message */
+.order_message {
+	font-size: 60%;
+	width: 100%;
+	padding-right: 10px;
+	text-align: left;
+	overflow: hidden;
+}
+.order_item {
+	font-size: 60%;
+	text-align: left;
+}
+
+/*  product name*/
+.order_item_name {
+	width: 100%;
+	font-size: 70%;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+/*----------------------Style for product list----------------------------*/
+/*  product name*/
+.prd_result_name {
+	width: 100%;
+	font-size: 90%;
+	float: left;
+	padding-right: 10px;
+}
+/*  product number*/
+.prd_result_no {
+	font-size: 60%;
+}
+/* product list price value*/
+.prd_result_lpr_val {
+	text-align: left;
+	font-size: 60%;
+}
+/* product list atp value*/
+.prd_result_atp_val {
+	/*    padding-right: 10px; */
+	text-align: left;
+	font-size: 60%;
+}
+/* product list count value*/
+.prd_result_count_val {
+	/*    padding-right: 10px; */
+	text-align: left;
+	font-size: 60%;
+}
+/*--------------------------------------------------------------------------*/
+/*----------------------Style for product description---------------------------*/
+.prd_desc_header {
+	background-color: #5ab5f5;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a2d6f9), color-stop(3%, #72c0f6), color-stop(100%, #42abf4));
+	background-image: -webkit-linear-gradient(top, #a2d6f9,#72c0f6 3%,#42abf4);
+	background-image: linear-gradient(top, #a2d6f9,#72c0f6 3%,#42abf4);
+	color: #0a6aac;
+	text-shadow: rgba(255,255,255,0.25) 0 0.08em 0;
+	border-top: 1px solid #5ab5f5;
+	border-bottom: 1px solid #0d87dc;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 2px 0px 1px 10px;
+	text-shadow: rgba(255,255,255,0.25) 0 0.08em 0
+}
+.prd_desc_product_desc {
+	border-width: 2px 1px 0px 1px;
+	border-style: groove;
+	width: 100%;
+	font-size: 90%;
+	/*font-weight: bold;*/
+	padding: 3px 0px 2px 10px
+}
+.prd_desc_product_code, .prd_desc_cost, .prd_desc_list_price, .prd_desc_message {
+	border-width: 2px 0px 0px 1px;
+	border-style: groove;
+	width: 100%;
+	font-size: 60%;
+	/*font-weight: bold;*/
+	padding: 2px 0px 2px 10px
+}
+.prd_desc_uom, .prd_desc_cust_price, .prd_desc_cust_purch {
+	border-width: 2px 1px 1px 1px;
+	border-style: groove;
+	width: 50%;
+	float: right;
+	font-size: 60%;
+	/*font-weight: bold;*/
+	padding: 2px 0px 2px 10px
+}
+.prd_desc_atp5, .prd_desc_atp2 {
+	border-width: 2px 0px 0px 1px;
+	border-style: groove;
+	width: 100%;
+	font-size: 60%;
+	/*font-weight: bold;*/
+	padding: 2px 0px 2px 10px
+}
+.prd_desc_atp, .prd_desc_stock {
+	border-width: 2px 0px 0px 1px;
+	border-style: groove;
+	width: 100%;
+	font-size: 60%;
+	/*font-weight: bold;*/
+	padding: 2px 0px 2px 10px
+}
+.prd_desc_obs {
+	border-width: 2px 0px 1px 1px;
+	border-style: groove;
+	width: 100%;
+	font-size: 60%;
+	/*font-weight: bold;*/
+	padding: 2px 0px 2px 10px
+}
+/*-------------Cart List---------------------*/
+.myList .x-list-item-body {
+	min-height: 35px;
+	padding: 3px 5px 5px 5px;
+}
+.cons_input {
+	font-size: 100%;
+	margin: 5px 0px 0px 0px;
+	padding: 3px 3px 3px 3px;
+	font-weight: bold;
+	border: 1px solid Gray;
+	size: 4;
+	width: 50%;
+	text-align: right;
+}
+.cart_input {
+	font-size: 100%;
+	margin: 5px 0px 0px 0px;
+	padding: 3px 3px 3px 3px;
+	font-weight: bold;
+	border: 1px solid Gray;
+	size: 4;
+	width: 100%;
+	text-align: left;
+}
+.cart_product_desc {
+	width: 100%;
+	font-size: 90%;
+}
+/*  product number*/
+.cart_no {
+	float: left;
+	font-size: 60%;
+	width: 70px;
+}
+
+.contact_edit {
+	background: url("images/edit.png") no-repeat;
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+}
+.contact_delete {
+	background: url("images/delete.png") no-repeat;
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+}
+
+.sales_hist_text {
+	font-size: 0.6em;
+	text-align: left;
+}
+
+.sales_hist_po {
+	font-size: 0.7em;
+	text-align: left;
+}
+
+.atp_list_text {
+	font-size: 0.6em;
+	text-align: left;
+}

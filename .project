@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>SpicersOrder</name>
+	<comment></comment>
+	<projects>
+		<project>Core</project>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.aptana.projects.webnature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>CORE</name>
+			<value>file:/H:/work/project/sybase/apps/Core/SpicersCore</value>
+		</variable>
+	</variableList>
+</projectDescription>
